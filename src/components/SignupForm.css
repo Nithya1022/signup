@@ -1,0 +1,68 @@
+/* Center the form */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form title */
+  form h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Input hover/focus */
+  form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Submit button */
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover */
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Success/Error message */
+  form p {
+    text-align: center;
+    font-size: 14px;
+    color: #d9534f; /* Red for error messages */
+    margin-top: 10px;
+  }
+  
+  form p.success {
+    color: #28a745; /* Green for success messages */
+  }
+  
